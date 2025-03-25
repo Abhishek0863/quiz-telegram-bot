@@ -34,6 +34,7 @@ CREATE TABLE IF NOT EXISTS participants (
     question_id INTEGER,
     selected_answer TEXT,
     entry_fee INTEGER,
+    status TEXT DEFAULT 'pending',
     timestamp TEXT
 )
 ''')
